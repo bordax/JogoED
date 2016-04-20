@@ -1,22 +1,22 @@
 # depslib dependency file v1.0
-1461174590 source:/home/borda/Projects/c/JogoED/main.cpp
+1461175808 source:/home/borda/Projects/c/JogoED/main.cpp
 	<iostream>
 	"Carta.h"
 	"Pilha.h"
 	"Baralho.h"
 
-1461173574 source:/home/borda/Projects/c/JogoED/src/Carta.cpp
+1461176067 source:/home/borda/Projects/c/JogoED/src/Carta.cpp
 	"Carta.h"
 	<sstream>
 
-1461172809 /home/borda/Projects/c/JogoED/include/Carta.h
+1461176067 /home/borda/Projects/c/JogoED/include/Carta.h
 	<string>
 
 1461125755 source:/home/borda/Projects/c/JogoED/src/Pilha.cpp
 	"Pilha.h"
 	<iostream>
 
-1461126061 /home/borda/Projects/c/JogoED/include/Pilha.h
+1461175889 /home/borda/Projects/c/JogoED/include/Pilha.h
 	"Carta.h"
 	<iostream>
 

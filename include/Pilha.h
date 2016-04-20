@@ -13,6 +13,7 @@ class Pilha
         T desempilha();
         int rtopo(){return topo;}
         int rtam(){return tamanho;}
+        int soma_elementos();
 
 
     private:
@@ -61,7 +62,14 @@ template<class T>
 bool Pilha<T>::Vazia(){
     return (tamanho == 0);
 }
-
+template<class T>
+int Pilha<T>::soma_elementos(){
+    int resultado=0;
+    for(int index = 0; index < tamanho; index++){
+        resultado = pilha[index]+resultado;
+    }
+    return resultado;
+}
 template<class T>
 bool Pilha<T>::Cheia(){
     return (tamanho == 52);

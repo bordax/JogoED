@@ -24,7 +24,8 @@ class Carta
         int GetValor() { return Valor; }
         void SetValor(int val) { Valor = val; }
         std::string repr (); //representação da carta
-
+        int operator+(Carta);
+        int operator+(int);
     private:
         int Naipe;
         int Valor;

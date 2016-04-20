@@ -46,5 +46,21 @@ std::string Carta::repr(){
     return (_valor + " de " + _naipe);
 
 }
+int Carta::operator+(Carta c){
+    int valorc2;
+    switch(c.Valor){
+        case 11||12||13:
+            valorc2 = 10;
+            break;
+        default:
+            valorc2 = c.Valor;
+            break;
+
+    }
+    return Valor + valorc2;
+}
+int Carta::operator+(int v){
+    return Valor+v;
+}
 Carta::Carta(){}
 Carta::~Carta(){}

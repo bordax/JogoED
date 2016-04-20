@@ -8,14 +8,25 @@ int main()
 {
     if(menu_inicial()==1){
         string opcao = "S";
-        Baralho b;
-        b.embaralhar();
-
+        Baralho mesa;
+        mesa.embaralhar();
+        Pilha<Carta> maoplayer1;
+        Pilha<Carta> maoplayer2;
         cout << "O baralho foi embaralhado!" << endl;
         Carta topo;
         do{
-            topo = b.Tira_Topo();
+            topo = mesa.Tira_Topo();
+            maoplayer1.empilha(topo);
             cout << "Carta: " << topo.repr() << endl;
+            cout << "Soma dos itens na mao: "<< maoplayer1.soma_elementos()<<endl;
+            if(maoplayer1.soma_elementos() > 21){
+                cout << "Perdeu!!";
+                break;
+            }
+            if(maoplayer1.soma_elementos()==21){
+                cout << "Ganhou!!";
+                break;
+            }
             cout << "Deseja retirar outra carta? (S/N)" <<endl;
             cin >> opcao;
         }while (opcao=="S");
