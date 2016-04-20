@@ -26,10 +26,12 @@
 		</Compiler>
 		<Unit filename="include/Baralho.h" />
 		<Unit filename="include/Carta.h" />
+		<Unit filename="include/Jogador.h" />
 		<Unit filename="include/Pilha.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Baralho.cpp" />
 		<Unit filename="src/Carta.cpp" />
+		<Unit filename="src/Jogador.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
