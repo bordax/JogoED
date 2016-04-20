@@ -49,18 +49,38 @@ std::string Carta::repr(){
 int Carta::operator+(Carta c){
     int valorc2;
     switch(c.Valor){
-        case 11||12||13:
+        case 11:
+            valorc2 = 10;
+            break;
+        case 12:
+            valorc2 = 10;
+            break;
+        case 13:
             valorc2 = 10;
             break;
         default:
             valorc2 = c.Valor;
             break;
-
     }
     return Valor + valorc2;
 }
 int Carta::operator+(int v){
-    return Valor+v;
+    int valorc2;
+    switch(Valor){
+        case 11:
+            valorc2 = 10;
+            break;
+        case 12:
+            valorc2 = 10;
+            break;
+        case 13:
+            valorc2 = 10;
+            break;
+        default:
+            valorc2 = Valor;
+            break;
+    }
+    return valorc2+v;
 }
 Carta::Carta(){}
 Carta::~Carta(){}

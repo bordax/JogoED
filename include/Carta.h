@@ -23,6 +23,7 @@ class Carta
         void SetNaipe(int val) { Naipe = val; }
         int GetValor() { return Valor; }
         void SetValor(int val) { Valor = val; }
+
         std::string repr (); //representação da carta
         int operator+(Carta);
         int operator+(int);
