@@ -4,8 +4,7 @@
 #include <iostream>
 
 template <class T>
-class Pilha
-{
+class Pilha {
     public:
         Pilha();
         virtual ~Pilha();
@@ -25,8 +24,7 @@ class Pilha
 };
 
 template<class T>
-Pilha<T>::Pilha()
-{
+Pilha<T>::Pilha() {
     topo = -1;
     tamanho = 0;
 }

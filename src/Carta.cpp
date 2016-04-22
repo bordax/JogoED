@@ -26,7 +26,7 @@ std::string Carta::repr(){
     }
     switch (Valor){
         case 1:
-            _valor = "Ás";
+            _valor = "As";
             break;
         case 11:
             _valor = "Valete";
@@ -50,13 +50,13 @@ int Carta::operator+(Carta c){
     int valorc2;
     switch(c.Valor){
         case 11:
-            valorc2 = 10;
+            valorc2 = 11;
             break;
         case 12:
-            valorc2 = 10;
+            valorc2 = 12;
             break;
         case 13:
-            valorc2 = 10;
+            valorc2 = 13;
             break;
         default:
             valorc2 = c.Valor;
@@ -68,13 +68,13 @@ int Carta::operator+(int v){
     int valorc2;
     switch(Valor){
         case 11:
-            valorc2 = 10;
+            valorc2 = 11;
             break;
         case 12:
-            valorc2 = 10;
+            valorc2 = 12;
             break;
         case 13:
-            valorc2 = 10;
+            valorc2 = 13;
             break;
         default:
             valorc2 = Valor;

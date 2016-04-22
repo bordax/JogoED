@@ -39,3 +39,41 @@
 1461181403 source:/home/borda/Projects/c/JogoED/src/Jogador.cpp
 	"Jogador.h"
 
+1461348395 source:c:\users\tulio\desktop\edperneta\jogoed\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Carta.h"
+	"Pilha.h"
+	"Baralho.h"
+	"Jogador.h"
+
+1461283331 c:\users\tulio\desktop\edperneta\jogoed\include\carta.h
+	<string>
+
+1461288581 c:\users\tulio\desktop\edperneta\jogoed\include\pilha.h
+	"Carta.h"
+	<iostream>
+
+1461292777 c:\users\tulio\desktop\edperneta\jogoed\include\baralho.h
+	"Pilha.h"
+	"Carta.h"
+
+1461348369 c:\users\tulio\desktop\edperneta\jogoed\include\jogador.h
+	<string>
+	"Carta.h"
+	"Pilha.h"
+	<iostream>
+
+1461292669 source:c:\users\tulio\desktop\edperneta\jogoed\src\baralho.cpp
+	"Baralho.h"
+	"Carta.h"
+	<cstdlib>
+	<ctime>
+
+1461293563 source:c:\users\tulio\desktop\edperneta\jogoed\src\carta.cpp
+	"Carta.h"
+	<sstream>
+
+1461348401 source:c:\users\tulio\desktop\edperneta\jogoed\src\jogador.cpp
+	"Jogador.h"
+

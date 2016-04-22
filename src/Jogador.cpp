@@ -4,7 +4,9 @@ Jogador::Jogador(std::string nome)
 {
     Nome = nome;
     repr = "";
+    isDerrotado = false; //
 }
+
 int Jogador::soma_mao()
 {
     return mao.soma_elementos();
@@ -24,6 +26,16 @@ std::string Jogador::getNome()
 std::string Jogador::repr_mao()
 {
     return repr;
+}
+
+bool Jogador::get_isDerrotado()
+{
+    return isDerrotado;
+}
+
+void Jogador::set_isDerrotado(bool resultado)
+{
+    isDerrotado = resultado;
 }
 
 Jogador::~Jogador(){}

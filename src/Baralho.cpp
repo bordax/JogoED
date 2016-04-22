@@ -5,7 +5,7 @@
 
 Baralho::Baralho()
 {
-    int naipe,valor;
+    int naipe, valor;
     for(naipe=1; naipe <=4; naipe++){
         for(valor = 1; valor <=13; valor++){
             baralho.empilha(Carta(naipe,valor));
@@ -45,3 +45,6 @@ Carta Baralho::Tira_Topo()
 {
     return baralho.desempilha();
 }
+
+
+
